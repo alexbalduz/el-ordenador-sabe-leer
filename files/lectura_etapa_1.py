@@ -21,7 +21,7 @@
 
 import cv2
 
-class etapa_1:
+class etapa_1():
     #Constructor de la clase
     def __init__(self, zonaEscrituraLargoMin, zonaEscrituraLargoMax, zonaEscrituraAnchoMin, zonaEscrituraAnchoMax):
         self.zonaEscrituraLargoMin = zonaEscrituraLargoMin
