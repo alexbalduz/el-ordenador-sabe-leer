@@ -139,8 +139,6 @@ def main():
     zonaEscrituraLargoMax = 590
     zonaEscrituraAnchoMin = 300
     zonaEscrituraAnchoMax = 340
-    lectura_etapa2 = etapa_2(zonaEscrituraLargoMin, zonaEscrituraLargoMax, zonaEscrituraAnchoMin,zonaEscrituraAnchoMax )
-
     print('Inicialización de la webcam')
-
+    lectura_etapa2 = etapa_2(zonaEscrituraLargoMin, zonaEscrituraLargoMax, zonaEscrituraAnchoMin,zonaEscrituraAnchoMax)
     lectura_etapa2.inicializarWebCam()
